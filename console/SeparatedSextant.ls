@@ -46,8 +46,6 @@
 
       clear: -> clear!
 
-      key-suffix: -> key-suffix!
-
       to-string: -> key = "sextant-#{ key-suffix! }" ; sextant-for-key key
 
     #
